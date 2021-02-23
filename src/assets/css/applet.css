@@ -1,0 +1,93 @@
+/*官网装修、编辑、组件 */
+.u-design .ivu-affix {
+  width: 534px;
+  max-width: 534px;
+}
+.edit-shop-header,
+.edit-page-header {
+  padding: 7px 10px 6px 10px;
+  border: 1px solid #dddee1;
+  background-color: #f8f8f9;
+  border-radius: 6px 6px 0 0;
+}
+.edit-page-header.open {
+  border-radius: 6px;
+}
+.edit-shop-header h3 {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.edit-shop-delete,
+.edit-page-delete {
+  float: right;
+}
+.edit-shop-header a {
+  font-size: 14px;
+  opacity: 0.64;
+  display: inline-block;
+  padding: 4px 7px;
+  margin: -3px -4px 0 0;
+}
+.edit-page-header a {
+  font-size: 12px;
+  opacity: 0.64;
+}
+.edit-shop-header a:hover,
+.edit-page-header a:hover {
+  opacity: 1;
+}
+.edit-shop-content,
+.edit-page-content {
+  position: relative;
+  min-height: 44px;
+  padding: 22px 10px 15px 10px;
+  border: 1px solid #dddee1;
+  border-top: none;
+  background-color: #fff;
+}
+.edit-page-content {
+  padding: 15px 10px 10px 10px;
+  border-radius: 0 0 6px 6px;
+}
+
+.edit-shop-content .ivu-form-item {
+  margin-bottom: 10px;
+}
+.edit-shop-content .ivu-row:after,
+.edit-shop-content .ivu-row:before,
+.edit-shop-content .ivu-form-item:after {
+  display: none;
+}
+
+.edit-shop-content .units {
+  margin: 0 4px;
+  color: #666;
+}
+.edit-shop-content .tips {
+  color: #999;
+}
+
+.mod-shop-carousel .ivu-carousel-dots li button {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.edit-shop-introduction textarea.ivu-input {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.u-moments .cart-content-inner img {
+  max-width: 99%;
+}
+
+.u-moments .u-lists .ivu-scroll-wrapper {
+  margin-right: 10px;
+}
+.u-moments .u-lists .ivu-scroll-content {
+  margin-bottom: 44px;
+}

@@ -1,0 +1,123 @@
+#changePasswordModal {
+    z-index: 8001 !important;
+}
+
+#modifyUserInfoModal {
+    z-index: 8001 !important;
+}
+
+.navbar-fixed-bottom {
+    z-index: 61030
+}
+
+.modal-backdrop {
+    z-index: 61040
+}
+
+.modal {
+    z-index: 61050
+}
+
+.select2-dropdown {
+    z-index: 61060
+}
+
+.menu-lv2 {
+    cursor: default;
+}
+
+.menu-lv2:hover {
+    text-decoration: none;
+}
+.goods-attr {
+    margin-right: 8px;
+}
+
+.goods-attr a {
+    color: #0085d1;
+}
+
+.goods-thumb {
+    margin-left: 5px !important;
+}
+
+.goods-thumb img {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+a[disabled] {
+    color: lightgray !important;
+    cursor: auto;
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+}
+
+.sino-waiting-dlg {
+    background: url("waiting.gif") no-repeat center;
+}
+
+.sino-waiting-dlg .modal-body {
+    padding: 0;
+}
+
+.font-s10 {
+    font-size: 10px !important;
+}
+
+.sidebar {
+    z-index: 999;
+}
+
+.required:before {
+    content: '* ';
+    color: red;
+}
+
+.sino-table-fixed {
+    table-layout: fixed;
+    max-width: none;
+    width: auto;
+}
+
+th.sino-td-fixed {
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+td.sino-td-fixed {
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    word-break:break-all;
+}
+
+.menu-content a, .menu-content i {
+    display: inline-block;
+}
+
+.pager i.fa-arrow-circle-right {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #005484;
+}
+
+.sino-nowrap-space {
+    white-space: nowrap
+}
+
+.disable-a-click {
+    pointer-events:none;
+}
